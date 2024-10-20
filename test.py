@@ -106,11 +106,7 @@ def test(batch_size: int = 10, num_tests: int = 10, use_guidance: bool = False):
         json.dump(report_dict, f, indent=4)
 
 if __name__ == '__main__':
-    # test(batch_size=1, num_tests=10, use_guidance=False)
-    # test(batch_size=30, num_tests=10, use_guidance=False)
-    # test(batch_size=1, num_tests=10, use_guidance=True)
+    test(batch_size=1, num_tests=10, use_guidance=False)
+    test(batch_size=30, num_tests=10, use_guidance=False)
+    test(batch_size=1, num_tests=10, use_guidance=True)
     test(batch_size=50, num_tests=10, use_guidance=True)
-
-
-
-# HF_TOKEN=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

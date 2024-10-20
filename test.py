@@ -2,14 +2,7 @@ import json
 import os
 import time
 import shortuuid
-from langchain.prompts import (
-    HumanMessagePromptTemplate,
-    ChatPromptTemplate,
-)
-from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
-
-
 from openai import OpenAI
 
 

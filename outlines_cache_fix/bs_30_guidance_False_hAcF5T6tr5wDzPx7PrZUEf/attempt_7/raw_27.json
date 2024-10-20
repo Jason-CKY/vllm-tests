@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "steps": [
+      {
+        "explanation": "To solve for x, we need to isolate the variable x on one side of the equation.",
+        "output": ""
+      },
+      {
+        "explanation": "First, subtract 31 from both sides of the equation to get rid of the constant term.",
+        "output": "8x = 2 - 31"
+      },
+      {
+        "explanation": "Subtracting 31 from 2 gives us -29.",
+        "output": "8x = -29"
+      },
+      {
+        "explanation": "Next, divide both sides of the equation by 8 to solve for x.",
+        "output": "x = -29 / 8"
+      },
+      {
+        "explanation": "Dividing -29 by 8 gives us the value of x.",
+        "output": "x = -3.625"
+      }
+    ],
+    "final_answer": "-3.625"
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": false
+}

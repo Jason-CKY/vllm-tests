@@ -1,0 +1,34 @@
+{
+    "type": "object",
+    "properties": {
+        "steps": [
+            {
+                "explanation": "First, we want to isolate the variable x. We can do this by subtracting 31 from both sides of the equation.",
+                "output": "-31 + 8x = 2 - 31"
+            },
+            {
+                "explanation": "This simplifies to",
+                "output": "-31 + 8x = -29"
+            },
+            {
+                "explanation": "Next, we want to get rid of the negative number on the left side of the equation. We can do this by adding 31 to both sides.",
+                "output": "8x = -29 + 31"
+            },
+            {
+                "explanation": "This simplifies to",
+                "output": "8x = 2"
+            },
+            {
+                "explanation": "Now, we want to isolate x. We can do this by dividing both sides of the equation by 8.",
+                "output": "x = 2/8"
+            },
+            {
+                "explanation": "This simplifies to",
+                "output": "x = 1/4"
+            }
+        ],
+        "final_answer": "x = 1/4"
+    },
+    "required": ["steps", "final_answer"],
+    "additionalProperties": false
+}

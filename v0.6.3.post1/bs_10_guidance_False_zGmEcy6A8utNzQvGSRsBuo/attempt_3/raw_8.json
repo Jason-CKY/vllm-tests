@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "steps": [
+            {
+                "explanation": "Step 1: Subtract 31 from both sides of the equation",
+                "output": "-31"
+            },
+            {
+                "explanation": "This results in the equation: 8x = -29",
+                "output": "8x = -29"
+            },
+            {
+                "explanation": "Step 2: Divide both sides of the equation by 8",
+                "output": "-29/8"
+            },
+            {
+                "explanation": "This results in the solution: x = -29/8",
+                "output": "-29/8"
+            }
+        ],
+        "final_answer": "-29/8"
+    },
+    "required": ["steps", "final_answer"],
+    "additionalProperties": False
+}

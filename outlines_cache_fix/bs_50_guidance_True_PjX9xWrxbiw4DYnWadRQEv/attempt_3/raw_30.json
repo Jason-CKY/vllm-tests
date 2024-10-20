@@ -1,0 +1,1 @@
+{"steps": [{"explanation": "Subtract 31 from both sides of the equation", "output": "-31 + 8x = 2 - 31"}, {"explanation": "Combine the constants on the left side of the equation", "output": "8x - 31 = -29"}], "final_answer": "x = -29/8"}

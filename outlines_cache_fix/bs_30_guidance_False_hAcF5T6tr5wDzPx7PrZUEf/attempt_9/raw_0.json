@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "explanation": {
+            "type": "string"
+          },
+          "output": {
+            "type": "string"
+          }
+        },
+        "required": ["explanation", "output"],
+        "additionalProperties": False
+      }
+    },
+    "final_answer": {
+      "type": "string"
+    }
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": False
+}
+{
+  "steps": [
+    {
+      "explanation": "To solve the equation, we need to isolate x",
+      "output": ""
+    },
+    {
+      "explanation": "Subtract 31 from both sides of the equation",
+      "output": "8x = 2 - 31"
+    },
+    {
+      "explanation": "Perform the subtraction on the right side of the equation",
+      "output": "8x = -29"
+    },
+    {
+      "explanation": "Divide both sides of the equation by 8",
+      "output": "x = -29 / 8"
+    },
+    {
+      "explanation": "Perform the division on the right side of the equation",
+      "output": "x = -3.625"
+    }
+  ],
+  "final_answer": "x = -3.625"
+}

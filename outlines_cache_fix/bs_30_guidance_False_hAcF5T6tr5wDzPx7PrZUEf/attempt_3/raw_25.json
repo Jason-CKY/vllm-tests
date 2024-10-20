@@ -1,0 +1,46 @@
+```
+{
+    "type": "object",
+    "properties": {
+        "steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "output": {
+                        "type": "string"
+                    }
+                },
+                "required": ["explanation", "output"],
+                "additionalProperties": False
+            }
+        },
+        "final_answer": {
+            "type": "string"
+        }
+    },
+    "required": ["steps", "final_answer"],
+    "additionalProperties": False
+}
+```
+
+```
+[
+    {
+        "explanation": "Subtract 31 from both sides of the equation",
+        "output": "8x = -29"
+    },
+    {
+        "explanation": "Divide both sides of the equation by 8",
+        "output": "x = -29/8"
+    },
+    {
+        "explanation": "Simplify the fraction",
+        "output": "x = -3.625"
+    }
+],
+"final_answer": "-3.625"
+```

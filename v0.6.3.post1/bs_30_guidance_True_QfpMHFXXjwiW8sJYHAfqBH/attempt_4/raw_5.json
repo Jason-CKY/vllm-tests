@@ -1,0 +1,1 @@
+{"steps": [{"explanation": "To solve the equation 8x + 31 = 2, first subtract 31 from both sides to isolate the term with x.", "output": "8x = 2 - 31"}, {"explanation": "Perform the subtraction: 2 - 31 = -29.", "output": "8x = -29"}, {"explanation": "Now, divide both sides by 8 to solve for x.", "output": "x = -29/8"}], "final_answer": "x = -29/8"}

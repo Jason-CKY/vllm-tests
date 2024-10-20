@@ -1,0 +1,26 @@
+```
+{
+  "type": "object",
+  "properties": {
+    "steps": [
+      {
+        "explanation": "To solve for x, we need to isolate x on one side of the equation.",
+        "output": ""
+      },
+      {
+        "explanation": "Subtract 31 from both sides of the equation.",
+        "output": "8x = -29"
+      },
+      {
+        "explanation": "Divide both sides of the equation by 8.",
+        "output": "x = -29/8"
+      }
+    ],
+    "final_answer": "x = -29/8"
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": False
+}
+```
+
+Note: `-29/8` can be further simplified to `-3.625`.

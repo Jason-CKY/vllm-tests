@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "steps": [
+      {
+        "explanation": "Subtract 31 from both sides of the equation to isolate the term with the variable.",
+        "output": "-31 + 8x + 31 = 2 - 31"
+      },
+      {
+        "explanation": "Simplify the equation.",
+        "output": "8x = -29"
+      },
+      {
+        "explanation": "Divide both sides by 8 to solve for x.",
+        "output": "8x / 8 = -29 / 8"
+      },
+      {
+        "explanation": "Simplify the equation.",
+        "output": "x = -29/8"
+      }
+    ],
+    "final_answer": "-29/8"
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": False
+}

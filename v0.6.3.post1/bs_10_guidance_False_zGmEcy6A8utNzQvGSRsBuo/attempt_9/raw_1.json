@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "output": {
+                        "type": "string"
+                    }
+                },
+                "required": ["explanation", "output"],
+                "additionalProperties": False
+            }
+        },
+        "final_answer": {
+            "type": "string"
+        }
+    },
+    "required": ["steps", "final_answer"],
+    "additionalProperties": False
+}
+
+[
+    {
+        "explanation": "Subtract 31 from both sides of the equation to isolate the variable term.",
+        "output": "-31"
+    },
+    {
+        "explanation": "Divide both sides of the equation by 8 to solve for x.",
+        "output": "x = -31/8"
+    },
+    {
+        "explanation": "Calculate the value of x.",
+        "output": "x = -3.875"
+    }
+]
+
+{
+    "final_answer": "x = -3.875"

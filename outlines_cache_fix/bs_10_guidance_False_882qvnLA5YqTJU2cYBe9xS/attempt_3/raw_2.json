@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "steps": [
+      {
+        "explanation": "Step 1: Subtract 31 from both sides of the equation.",
+        "output": "-41"
+      },
+      {
+        "explanation": "Step 2: Divide both sides of the equation by -8."
+      }
+    ],
+    "final_answer": "-41/(-8)"
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": false
+}
+
+{
+  "type": "object",
+  "properties": {
+    "steps": [
+      {
+        "explanation": "Step 1: Subtract 31 from both sides of the equation.",
+        "output": "-41"
+      },
+      {
+        "explanation": "Step 2: Divide both sides of the equation by -8.",
+        "output": "5.125"
+      }
+    ],
+    "final_answer": "5.125"
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": false
+}

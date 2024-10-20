@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "steps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "explanation": {
+                        "type": "string"
+                    },
+                    "output": {
+                        "type": "string"
+                    }
+                },
+                "required": ["explanation", "output"],
+                "additionalProperties": False
+            }
+        },
+        "final_answer": {
+            "type": "string"
+        }
+    },
+    "required": ["steps", "final_answer"],
+    "additionalProperties": False
+}
+
+{
+    "steps": [
+        {
+            "explanation": "First, we need to isolate x by subtracting 31 from both sides of the equation.",
+            "output": "8x = -29"
+        },
+        {
+            "explanation": "Next, we divide both sides of the equation by 8 to solve for x.",
+            "output": "x = -29 / 8"
+        },
+        {
+            "explanation": "Now, we can simplify the fraction -29 / 8 by dividing both numerator and denominator by their greatest common divisor, which is 1.",
+            "output": "x = -3.625"
+        }
+    ],
+    "final_answer": "-3.625"
+}

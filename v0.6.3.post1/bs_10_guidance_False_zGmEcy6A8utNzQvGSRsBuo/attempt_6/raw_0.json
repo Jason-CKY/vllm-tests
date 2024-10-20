@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "steps": [
+      {
+        "explanation": "Subtract 31 from both sides of the equation to isolate the term with x.",
+        "output": "-31"
+      },
+      {
+        "explanation": "The equation now becomes 8x = 2 - 31.",
+        "output": "8x = -29"
+      }
+    ],
+    "final_answer": "-29/8"
+  },
+  "required": ["steps", "final_answer"],
+  "additionalProperties": false
+}

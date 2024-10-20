@@ -1,0 +1,1 @@
+{"steps": [{"explanation": "Subtract 31 from both sides of the equation", "output": "-3x = -29"}, {"explanation": "Divide both sides of the equation by -3", "output": "x = \\\\"}, {"explanation": "Simplify the fraction", "output": "\\fraction{29}{3}"}], "final_answer": "x = \\frac{29}{3}"}

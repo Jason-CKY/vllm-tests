@@ -3,7 +3,7 @@ import json
 import os
 import time
 import shortuuid
-from openai import OpenAI
+from openai import AsyncOpenAI
 
 
 async def test(concurrency: int = 10, num_tests: int = 10, use_guidance: bool = False):
@@ -39,7 +39,7 @@ async def test(concurrency: int = 10, num_tests: int = 10, use_guidance: bool = 
     }
 
     print(guidance if use_guidance else {})
-    client = OpenAI(
+    client = AsyncOpenAI(
         base_url="http://localhost:8000/v1",
         api_key="empty",
     )
